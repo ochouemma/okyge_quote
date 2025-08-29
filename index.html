@@ -1,28 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Generateur de Citations</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Générateur de Citations</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
 <body>
-    <!-- HTML -->
-<div class="logo">
-  <div class="logo-icon"><br>“</div>
-  <div class="logo-text">
-    <span class="brand"><strong>OKYGE</strong></span>
-    <span class="tagline"><strong>QUOTES GENERATOR</strong></span>
-  </div>
-</div>
-
-    <div class="container">
-        <h1>💬 Citation du jour</h1>
-        <p id="quote">Clique sur le bouton pour une citation inspirante.</p>
-        <button onclick="getRandomQuote()">Nouvelle citation</button>
+  <div class="logo">
+    <div class="logo-icon">“</div>
+    <div class="logo-text">
+      <span class="brand"><strong>OKYGE</strong></span>
+      <span class="tagline"><strong>QUOTES GENERATOR</strong></span>
     </div>
+  </div>
 
-    <script src="script.js"></script>
-</head>
+  <div class="container">
+    <h1>💬 Citation du jour</h1>
+    <p id="quote">Chargement de la citation...</p>
+    <button onclick="getRandomQuote()">Nouvelle citation</button>
+  </div>
+
+  <script src="script.js"></script>
+  <audio id="typeSound" src="https://www.soundjay.com/button/sounds/button-16.mp3" preload="auto"></audio>
 </body>
 </html>
+
